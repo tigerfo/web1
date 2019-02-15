@@ -1,0 +1,209 @@
+<!doctype html> <!--  이 문서형식은 html 형식의 문서이다. -->
+<html>
+<head>
+    <title xmlns="http://www.w3.org/1999/html">WEB! - JavaScript </title> <!-- 책 표지와 같은 역할 -->
+    <meta charset="utf-8">   <!-- char 문자란 뜻, set 규칙이란 뜻. 컴퓨터는 최종적으로 0,1로 최종적으로 저장되는데, 그 약속 하나가 utf-8 방식으로 저장됨.  -->
+</head>                         <!--전체를 감싸는 것.   위는 표지, 머리     아래는 본문, 몸. -->
+<body>
+<h1><a href="index.html">WEB</a></h1>
+    <ol>                 <!-- Ordered List,    Unordered List -->
+        <li> <a href="1.html"> HTML</a></li>   <!-- 목록, 목차 list  이에 대한 그룹핑을 위해 부모태그인 ul-->
+        <li> <a href="2.html"> CSS </a></li>
+        <li> <a href="3.html"> JavaScript</a></li>
+    </ol>
+    <h2>JavaScript</h2>  <!-- 컴퓨터는 최종적으로 0,1로 최종적으로 저장되는데, 그 약속 하나가 utf-8 방식으로 저장됨.  -->
+    <p> JavaScript (/ˈdʒɑːvəˌskrɪpt/),[8] often abbreviated as JS, is a high-level, interpreted programming language that conforms to the ECMAScript specification. It is a language that is also characterized as dynamic, weakly typed, prototype-based and multi-paradigm.
+
+Alongside HTML and CSS, JavaScript is one of the three core technologies of the World Wide Web.[9] JavaScript enables interactive web pages and thus is an essential part of web applications. The vast majority of websites use it,[10] and all major web browsers have a dedicated JavaScript engine to execute it. <br>- The End -
+    </p>
+</body>
+</html>
+
+     <!--strong 테그
+ underline 테그.  Tag..옷에 붙인 딱지..여러분의 옷을 설명함. 중요하다는 것을 설명함.일상과 비슷한 어휘임.
+ 컴퓨터공학은 일상물건을 가지고 시와 비유로 설명함.
+ <h1></h1><></> <div> </div> <> </> <> </> <img> <> </> <p> </p> <> </> <li> </li> <h3>
+ <span> </span>
+ <a href>  </a>
+ 쉬운것은 중요하고, 어려운 것이 중요한것이 아니다.
+ 난이도 difficuly, 중요도 important
+
+ W#C   불쾌함 하지만, html 태그를 안 후는 편안함.
+ 모르는 것이 무엇인지 몰랐는데, 태그를 안 후에는 무엇을 모르는지 알게 된다. 검색, 질문. 대화가능.
+
+ https://www.w3schools.com/tags/tag_hn.asp   태그 내용에 대한 검색.찾아보기
+ 예제 붙여놓고 그 의미를 먼저 보고 의미 추론하기. 항상 구체적으로 보고 추상적인 의미를 추론하기.
+
+ 낫설게 보기
+ 150개 이상의 태그
+ 구글에서 웹페이지 검색...   https://www.advancedwebranking.com/html/  탑20개. 그래프.
+ 전세게 수많은 웹페이지에 가장 많이 사용하는 태그 숫자를 말함.
+
+<head> 98.1%
+<body>97.9%
+<html>97.9%
+<title>97%
+<meta>93.9%
+<div>89.9%
+<a>89.6%
+<script>88.5%
+<link>86.5%
+<img>86.3%
+<p>81.5%
+<span>75.6%
+<li>73.8%
+<ul>73.7%
+<br>70.3%
+<style>60.4%
+<h1>55.8%
+<h2>52.7%
+<input>48.4%
+<form>46.9%
+<strong>44.3%
+<h3>43.1%
+<table>30.9%
+<tr>30.3%
+<td>30.2%
+
+중국어 최근 공부시작... frequency of chinese word... 검색함.
+빈도수 높은 앞에 있는 것이 합쳐져서 뒤의 것이 된다.  뒤의 것은 특정한 것이지만 응용하기 쉽지 않다.
+반비례 원칙.
+
+html new line tag
+
+<p> 	Defines a paragraph   단락표시. <p> </p>그 문장 패러그래프.   마지막패러그래프까지.   html paragraph tag. 검색.
+         </p> <p style="margin-top:40px;">      </p>                 css 문법  단락과 단락 사이 여백(margin)이 칸 폭을 키우기
+<br> 	Inserts a single line break  중간끊고 줄바꾸기, 줄바꿈. 한줄만 삽입.
+<pre> 	Defines pre-formatted text   이전 포맷 글자를 정의
+ -->
+<p style="margin-top:300px;">
+<h1>새로운 태그를 배우기 : 예시</h1>
+<h1>W3C</h1>
+<h1>This is heading 1</h1> <!-- 숫자가 크기. heading 제목 태그임.  -->
+<h2>This is heading 2</h2>
+<h3>This is heading 3</h3>
+<h4>This is heading 4</h4>
+<h5>This is heading 5</h5>
+<h6>This is heading 6</h6>
+</p>
+ <p>
+This paragraph
+contains a lot of lines
+in the source code,
+but the browser
+ignores it.
+</p>
+
+<p>
+This paragraph
+contains         a lot of spaces
+in the source         code,
+but the        browser
+ignores it.
+</p>
+
+<p>This is a paragraph.
+<p>This is another paragraph.
+
+The HTML <br> element defines a line break.
+
+Use <br> if you want a line break (a new line) without starting a new paragraph:
+
+ <p>This is<br>a paragraph<br>with line breaks.</p>
+
+ <pre>
+  My Bonnie lies over the ocean.
+
+  My Bonnie lies over the sea.
+
+  My Bonnie lies over the ocean.
+
+  Oh, bring back my Bonnie to me.
+</pre>
+
+
+<!--
+기초가 중요하다= 응용으로 가는 과정으로서. : 의미.
+또한, 기초만으로도 할 수 있는 일이 많다. 웹사이트를 만든다는 큰 목표로 나아감.
+
+https://opentuturials.org  사이트.
+    글쓰는 화면이 있음.
+    예를 이해할 때, 극단적으로 생각..10년동안.
+-->
+
+<span style="font-size:24px">
+    coding
+</span>
+
+<h3>coding</h3>
+
+<!--
+비즈니스측면:
+검색엔진은 전세계 웹페이지를 검색해서 보여줄 때, 제목을 내용보다 먼저 검색한다. 상위에 노출한다. 정보 탄탄히.
+이미지로 글을 쓰는 경우(포토샵), 검색엔진에게는 없는 페이지 됨. 검색 안된다.
+
+휴머니즘적 측면
+웹페이지: 접근셩 accessibility (개방적)...  다른 기술과 차별점
+    모든 운영체제에서 동작
+    웹페이지 소스코드는 누구나 볼 수 있고
+    웹은 저작권이 순수한 공공재이다.
+시각장애인에게는 스크린리더 란 프로그램으로 인하여 시각정보를 청각정보로 바꾸어 인식함.
+이미지로 나타낸 것은 글이 아니므로 없는 정보로 취급됨.
+-->
+
+<!--
+부모태그   안에 자식태그...   태그끼리는 위치에 따라 부모 자식 관계라 달라질 수 있다.
+<parent>
+    <child>
+    </child>
+</parent>
+-->
+<!--  table 은 3대 존재 -->
+<table>
+    <tr>
+        <td>head</td>
+        <td>98.1%</td>
+    </tr>
+    <tr>
+        <td>body</td>
+        <td>97.9%</td>
+    </tr>
+    <tr>
+        <td>html</td>
+        <td>97.9%</td>
+    </tr>
+</table>
+
+<!--
+문법: 문장을 만드는 법 만듬.
+문장이 모이편 페이지가되고,
+페이지가 모이면 책이 되고,
+책에는 표지가 있고,
+표지에는 제목과 저자가 표기.
+
+정보가 많아지면, 정리정돈을 위체 체계, 구조가 필요.
+-->
+
+<!--
+이 태그가 없다면
+매일 100번이상 쓴다.
+html
+HyperText
+
+ancher  배의 정박하기 위한 닷. 정보의 바다에 정박한다는 의미
+<a>  링크 기능.
+사용설명서 검색.   html specification. 명세. 설명서.
+Recommendation 권고안.
+    W3c는 직접 브라우저를 만들지 않음.
+    W3c의 멤버들이 모여서 미래의 웹은 어떠해야 하는지 의논해서 미래 웹의 기술을 결정하면
+        recommendation 문제를 발표하고,
+        이 문서를 웹브라우저 제작업체들이 보고, 그에 따라서 웹브라우저를 만듬.
+-->
+
+<!--
+웹페이지들을 묶어서 웹사이트를 만들자.
+WEB ----> index.html 로 링크
+1. HTML ----> 1.html 로
+2. CSS -----> 2.html 로
+3. JavaScript ---> 3.html로 링크.
+-->
